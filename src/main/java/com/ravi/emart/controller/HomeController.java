@@ -1,4 +1,4 @@
-package com.naveen.emart.controller;
+package com.ravi.emart.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.naveen.emart.global.GlobalData;
-import com.naveen.emart.service.CategoryService;
-import com.naveen.emart.service.ProductService;
+import com.ravi.emart.global.GlobalData;
+import com.ravi.emart.service.CategoryService;
+import com.ravi.emart.service.ProductService;
 
 @Controller
 public class HomeController {

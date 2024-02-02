@@ -1,4 +1,4 @@
-package com.naveen.emart.model;
+package com.ravi.emart.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

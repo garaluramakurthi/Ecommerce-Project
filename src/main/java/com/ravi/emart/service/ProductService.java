@@ -1,4 +1,4 @@
-package com.naveen.emart.service;
+package com.ravi.emart.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.naveen.emart.model.Category;
-import com.naveen.emart.model.Product;
-import com.naveen.emart.repository.ProductRepository;
+import com.ravi.emart.model.Category;
+import com.ravi.emart.model.Product;
+import com.ravi.emart.repository.ProductRepository;
 
 @Service
 public class ProductService {

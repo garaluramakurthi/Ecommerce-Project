@@ -1,4 +1,4 @@
-package com.naveen.emart.model;
+package com.ravi.emart.model;
 
 import java.util.List;
 

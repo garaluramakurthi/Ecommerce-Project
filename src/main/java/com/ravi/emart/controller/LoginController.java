@@ -1,4 +1,4 @@
-package com.naveen.emart.controller;
+package com.ravi.emart.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.naveen.emart.global.GlobalData;
-import com.naveen.emart.model.Role;
-import com.naveen.emart.model.User;
-import com.naveen.emart.repository.RoleRepository;
-import com.naveen.emart.repository.UserRepository;
+import com.ravi.emart.global.GlobalData;
+import com.ravi.emart.model.Role;
+import com.ravi.emart.model.User;
+import com.ravi.emart.repository.RoleRepository;
+import com.ravi.emart.repository.UserRepository;
 
 @Controller
 public class LoginController {

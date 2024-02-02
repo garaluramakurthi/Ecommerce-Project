@@ -1,4 +1,4 @@
-package com.naveen.emart.controller;
+package com.ravi.emart.controller;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.naveen.emart.dto.ProductDTO;
-import com.naveen.emart.model.Category;
-import com.naveen.emart.model.Product;
-import com.naveen.emart.service.CategoryService;
-import com.naveen.emart.service.ProductService;
+import com.ravi.emart.dto.ProductDTO;
+import com.ravi.emart.model.Category;
+import com.ravi.emart.model.Product;
+import com.ravi.emart.service.CategoryService;
+import com.ravi.emart.service.ProductService;
 
 @Controller
 public class AdminController {

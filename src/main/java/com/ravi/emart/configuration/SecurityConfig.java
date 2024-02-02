@@ -1,4 +1,4 @@
-package com.naveen.emart.configuration;
+package com.ravi.emart.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-import com.naveen.emart.service.CustomUserDetailService;
+import com.ravi.emart.service.CustomUserDetailService;
 
 
 @Configuration

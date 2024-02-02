@@ -1,9 +1,9 @@
-package com.naveen.emart.global;
+package com.ravi.emart.global;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.naveen.emart.model.Product;
+import com.ravi.emart.model.Product;
 
 public class GlobalData {
 	public static List<Product> cart;

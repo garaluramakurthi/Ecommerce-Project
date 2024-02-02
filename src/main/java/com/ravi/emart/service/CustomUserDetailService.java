@@ -1,4 +1,4 @@
-package com.naveen.emart.service;
+package com.ravi.emart.service;
 
 import java.util.Optional;
 
@@ -10,9 +10,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.naveen.emart.model.CustomUserDetail;
-import com.naveen.emart.model.User;
-import com.naveen.emart.repository.UserRepository;
+import com.ravi.emart.model.CustomUserDetail;
+import com.ravi.emart.model.User;
+import com.ravi.emart.repository.UserRepository;
 
 @Service
 public class CustomUserDetailService implements UserDetailsService {

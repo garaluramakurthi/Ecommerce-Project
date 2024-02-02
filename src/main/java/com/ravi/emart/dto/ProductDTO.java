@@ -1,4 +1,4 @@
-package com.naveen.emart.dto;
+package com.ravi.emart.dto;
 
 
 public class ProductDTO {

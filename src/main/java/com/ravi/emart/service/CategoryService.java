@@ -1,10 +1,10 @@
-package com.naveen.emart.service;
+package com.ravi.emart.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.naveen.emart.model.Category;
-import com.naveen.emart.repository.CategoryRepository;
+import com.ravi.emart.model.Category;
+import com.ravi.emart.repository.CategoryRepository;
 
 import java.util.List;
 import java.util.Optional;

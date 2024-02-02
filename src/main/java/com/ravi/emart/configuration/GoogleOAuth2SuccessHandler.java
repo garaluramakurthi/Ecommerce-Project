@@ -1,4 +1,4 @@
-package com.naveen.emart.configuration;
+package com.ravi.emart.configuration;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,10 +16,10 @@ import org.springframework.security.web.RedirectStrategy;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
 
-import com.naveen.emart.model.Role;
-import com.naveen.emart.model.User;
-import com.naveen.emart.repository.RoleRepository;
-import com.naveen.emart.repository.UserRepository;
+import com.ravi.emart.model.Role;
+import com.ravi.emart.model.User;
+import com.ravi.emart.repository.RoleRepository;
+import com.ravi.emart.repository.UserRepository;
 
 @Component
 public class GoogleOAuth2SuccessHandler implements AuthenticationSuccessHandler{
